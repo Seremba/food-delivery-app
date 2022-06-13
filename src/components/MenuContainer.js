@@ -4,7 +4,7 @@ function MenuContainer({link, icon}) {
   return (
     <li>
        <a href={link}>
-           <span>{icon}</span>
+           <span className='icon'>{icon}</span>
        </a>
     </li>
   )
