@@ -1,6 +1,6 @@
 import { SearchRounded, ShoppingCartRounded, BarChart } from '@mui/icons-material'
-import logo, profile from '../images/logo.jpg'
-import {logo, profile from '../images/profile.jpg'
+import logo from '../images/logo.jpg'
+import profile from '../images/profile.jpg'
 import React from 'react'
 
 function Header() {
