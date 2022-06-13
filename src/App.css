@@ -113,4 +113,41 @@ header {
   font-weight: 500;
   display: none; 
 }
+
+.toggleMenu {
+  transform: rotate(90deg);
+}
+.toggleMenu .toggleIcon {
+  color: #373848;
+  font-size: 30px;
+}
 /* header styles end   */
+
+/* main section styles*/
+  main {
+    width: 100%;
+    height: auto;
+    background: #555;
+    margin-top: 60px;
+  }
+/* main section styles end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
