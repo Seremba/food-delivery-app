@@ -2,8 +2,22 @@ import Header from './components/Header'
 import MenuContainer from './components/MenuContainer'
 import './App.css';
 import { HomeRounded, Chat, AccountBalanceWalletRounded, Favorite, SummarizeRounded, Settings } from '@mui/icons-material';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    const menuLi = document.querySelectorAll("#menu li")
+
+    function setMenuActive(){
+      menuLi.forEach((item) => item.classList.remove("active")) 
+      this.classList.add("active")                                       
+    }
+
+
+    menuLi.forEach((item) => item.addEventListener("click", setMenuActive))
+  }, [])
+
   return (
     <div className="App">
       {/* header section  */}
